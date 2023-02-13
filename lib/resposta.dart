@@ -8,6 +8,6 @@ class Resposta extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(onPressed: onSelecionado, child: Text(texto));
+    return SizedBox(width: double.infinity,child: ElevatedButton(onPressed: onSelecionado, child: Text(texto),),);
   }
 }
